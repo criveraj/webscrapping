@@ -1,0 +1,35 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Web app that lets users view and leave comments on the latest news",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootbox": "^4.4.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.12.3",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criveraj/webscrapping.git"
+  },
+  "keywords": [
+    "web",
+    "scrapping"
+  ],
+  "author": "CR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criveraj/webscrapping/issues"
+  },
+  "homepage": "https://github.com/criveraj/webscrapping#readme"
+}

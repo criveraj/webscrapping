@@ -1,0 +1,92 @@
+   
+      body { background-color: #FFFFFF }
+      
+      p {
+        font-family: 'Questrial', sans-serif;
+        font-weight: 200;
+        font-size: 130%;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+      }
+      input {
+        height: 36px;
+        font-size: 20px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 14px;
+      }
+      .jumbotron{
+      background-image:url("news.jpg");
+      height:500px;
+      background-size: cover;
+      
+      }
+      .navbar{
+        margin: 0;
+      }
+      .text-center{
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 1000;
+        font-size: 500%;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        bottom: 0;
+        padding: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        margin: 0;
+        width: 100%;
+        background-color: #3f0fdb;
+        color: white;
+        text-align: center;
+      }
+      .panel {
+        border-radius: 0;
+        box-shadow: 3px 3px 20px lightslategrey;
+      }
+      
+      .panel.panel-default .panel-heading {
+        background-color: #2196f3;
+        position: relative;
+      }
+      
+      .panel.panel-default .panel-heading h3 {
+        color: white;
+      }
+      
+      .panel.panel-default .panel-heading .btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      
+      .panel.panel-default .panel-heading .btn.delete {
+        right: 160px;
+      }
+      
+      .panel.panel-default .panel-body {
+        font-size: 16px;
+      }
+      
+      .panel.panel-default .panel-heading .article-link {
+        color: white;
+        display: inline-block;
+        width: 80%;
+      }
+
+      .list-group-item{
+        font-size: 20px;
+        
+      }
