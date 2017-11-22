@@ -21,9 +21,13 @@ Allows the user to save the news he wish and add notes to the saved areticles
 ## Database
 MongoDB (using Mongoose: object data modeling (ODM) library)
 
-### Commands to run it
+###  to run it
 npm init
 npm install
+
+run mongod
+open Robo3T
+
 node server.js
 
 then go to LocalHost:3000
